@@ -10,7 +10,7 @@ body {
 	font-size: 12px;
 }
 
-a {
+a, a:focus, a:hover {
 	color: #aaa;
 	text-decoration: none;
 }
@@ -25,6 +25,7 @@ nav {
 
 nav ul {
 	float: right;
+	margin-top: 14px;
 }
 
 nav img {
@@ -51,7 +52,6 @@ ul li a:hover {
 
 
 .poster-wrapper div {
-	width: 33%;
 	display: inline-block;
 	text-align: center;
 	padding: 20px;
@@ -147,4 +147,10 @@ table tr td button {
 	border: none;
 	padding: 10px;
 	cursor: pointer;
+}
+
+@media(max-width: 661px) {
+	.poster-wrapper div:hover{
+		transform: scale(1.1);
+	}
 }
