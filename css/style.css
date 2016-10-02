@@ -50,6 +50,10 @@ ul li a:hover {
 	/*font-size: 20px;*/
 }
 
+button:disabled {
+	background-color: #999;
+}
+
 
 .poster-wrapper div {
 	display: inline-block;
