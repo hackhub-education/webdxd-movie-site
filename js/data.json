@@ -1,0 +1,30 @@
+// {
+// 	"color": "black",
+// 	"size": "100",
+// 	"keyboard": {
+// 		"name": "mac keyboard",
+// 		"size": 100.10,
+// 		"keys": ["a","b","c"],
+// 		"new": false
+// 	}
+// }
+
+[
+	{
+		"name": "Avengers",
+		"date": "Sep. 2014",
+		"price": 15
+	},
+
+	{
+		"name": "Star Wars",
+		"date": "Oct. 2015",
+		"price": 10
+	},
+
+	{
+		"name": "Tinanic",
+		"date": "Mar. 1996",
+		"price": 6
+	}
+]

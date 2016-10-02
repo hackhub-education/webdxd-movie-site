@@ -68,7 +68,7 @@ ul li a:hover {
 .poster-wrapper div:hover{
 	opacity: 1;
 	transform: scale(1.5);
-	z-index: 1;
+	z-index: 15;
 }
 
 .poster-wrapper div h2 {
